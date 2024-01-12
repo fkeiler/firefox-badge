@@ -1,0 +1,22 @@
+{
+  "name": "firefox-badge",
+  "version": "1.0.0",
+  "description": "A simple web component which tries to recreate an old Firefox badge that was shown on website footers",
+  "main": "dist/firefox-badge.cjs",
+  "module": "dist/firefox-badge.mjs",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "web-component",
+    "firefox",
+    "badge"
+  ],
+  "author": "Felipe Keiler",
+  "license": "ISC",
+  "devDependencies": {
+    "@modular-css/rollup": "^29.0.5",
+    "@rollup/plugin-url": "^8.0.2",
+    "rollup": "^4.9.5"
+  }
+}
