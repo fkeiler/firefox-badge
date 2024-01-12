@@ -5,13 +5,14 @@
   "main": "dist/firefox-badge.cjs",
   "module": "dist/firefox-badge.mjs",
   "scripts": {
-    "build": "rollup -c"
+    "prepare": "rollup -c"
   },
   "keywords": [
     "web-component",
     "firefox",
     "badge"
   ],
+  "repository": "github:fkeiler/firefox-badge",
   "author": "Felipe Keiler",
   "license": "ISC",
   "devDependencies": {
