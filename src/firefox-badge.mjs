@@ -1,5 +1,5 @@
 import { styles, getFirefoxButton, text, getFirefoxText } from './style.css';
-import firefoxLogo from './firefox-logo.svg';
+import firefoxLogo from './firefox-logo.png';
 
 class FirefoxBadge extends HTMLElement {
     constructor() {
