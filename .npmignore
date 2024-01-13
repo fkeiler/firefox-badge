@@ -1,3 +1,4 @@
-jsconfig.jscon
+jsconfig.json
 rollup.config.mjs
 test.html
+docs
