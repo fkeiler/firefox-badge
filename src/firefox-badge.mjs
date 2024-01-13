@@ -28,9 +28,7 @@ class FirefoxBadge extends HTMLElement {
         getFirefox.style.animationDelay = '9s';
         root.appendChild(getFirefox);
 
-        const firefoxLogoImage = document.createElement("img");
-        firefoxLogoImage.src = new URL(firefoxLogo, import.meta.url);
-        root.appendChild(firefoxLogoImage);
+        root.appendChild(firefoxLogo);
 
         const styleRoot = document.createElement("style");
         styleRoot.innerHTML = styles;

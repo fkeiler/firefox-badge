@@ -1,6 +1,6 @@
 
 import css from '@modular-css/rollup';
-import url from '@rollup/plugin-url';
+import image from '@rollup/plugin-image';
 
 export default {
     input: 'src/firefox-badge.mjs',
@@ -18,6 +18,8 @@ export default {
         css({
             styleExport: true,
         }),
-        url()
+        image({
+            dom: true
+        })
     ]
 }
