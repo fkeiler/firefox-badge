@@ -4,6 +4,7 @@
   "description": "A simple web component which tries to recreate an old Firefox badge that was shown on website footers",
   "main": "dist/firefox-badge.cjs",
   "module": "dist/firefox-badge.mjs",
+  "homepage": "https://fkeiler.github.io/firefox-badge/",
   "scripts": {
     "prepare": "rollup -c"
   },
