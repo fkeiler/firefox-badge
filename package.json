@@ -12,7 +12,10 @@
     "firefox",
     "badge"
   ],
-  "repository": "github:fkeiler/firefox-badge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkeiler/firefox-badge.git"
+  },
   "author": "Felipe Keiler",
   "license": "ISC",
   "devDependencies": {
